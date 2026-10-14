@@ -10,10 +10,10 @@ function setup() {
 function draw() {
     background('lightblue');
     ballXpos += speed;
-    if(ballXpos > width - 50) {
+    if(ballXpos > width - 25) {
         speed = speed *-1;
     }
-    if(ballXpos < 0 + 50) {
+    if(ballXpos < 0 + 25) {
         speed = speed*-1;
     }
     
